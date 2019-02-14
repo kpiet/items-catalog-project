@@ -1,0 +1,199 @@
+/* styles */
+
+html, body {
+	font-family: "Helvetica Neue Bold", sans-serif;
+	font-weight: 700;
+    background: #fff;
+}
+
+h1 {
+	font-family: "Helvetica Neue Light", sans-serif;
+	font-size: 50px;
+	color: #51453B;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+
+h2, h3 {
+	font-size: 18px;
+	color: #4A4A4A;
+	line-height: 23px;
+}
+ p {
+ 	font-family: "Helvetica Neue", sans-serif;
+ 	font-size: 16px;
+ 	color: #7B7573;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+#signinButton {
+    text-align: center;
+}
+
+.wrapper {
+   text-align: center;
+     max-width: 15em;
+}
+
+.signinButton {
+    position: absolute;
+    top: 50%;
+}
+
+ul { 
+  padding: 0; 
+  margin: 10px auto 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+li { 
+  padding: 15px 0;
+  display: table-cell; 
+  position: relative; 
+ 
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+a:after {    
+ 
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+.btn {
+	padding: 20px;
+	margin: 0;
+	border-color: #9FB80A;
+	border-width: 2px;
+	color: #9FB80A;;
+}
+.btn:hover {
+	border-color: #9FB80A;
+}
+.btn.delete {
+	border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #aaaaaa;
+	color: #FF0000;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+.top-menu {
+	padding-top: 3px;
+	padding-bottom: 30px;
+}
+.top-menu p {
+	margin-bottom: 0;
+	line-height: 10px;
+}
+.top-menu a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #7B7573;
+	font-weight: 400;
+}
+.divider {
+	height: 5px;
+}
+.divider.grey {
+	background-color: #7B7573;
+}
+
+.divider.grey {
+     margin-top: -34px ;
+	background-color: #7B7573;
+}
+
+
+
+.banner.menu {
+	height: 5px;
+	background-color: #f7c552;
+}
+
+.banner h1 {
+	margin: 5px ;
+}
+ .restaurant-list {
+ 	background-color: #F0F0F0;
+ 	padding: 20px;
+ }
+ .restaurant-list:hover {
+ 	background-color: #f7c552;
+ 	padding: 20px;
+}
+.menu-item {
+	background: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+	margin-left: -20px;
+}
+.menu-price {
+	font-weight: 700;
+}
+.creator {
+	padding-right: 20px;
+	margin-top: -20px;
+	text-align: right;
+	float:right;
+}
+.creator img {
+    margin-top: -35px;
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+    margin-top: -35px;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: -20px;
+}
+.flash {
+	background-color: #f7c552;
+	width:100%;
+	text-decoration: none;
+
+}
+
+.flash li {
+	list-style-type: none;
+	text-align: center;
+}
+
+/* Media Query */ 
+
+@media screen and (max-height: 600px) {
+	ul {
+		margin-top: 40px;
+	}
+}
